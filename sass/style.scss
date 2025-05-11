@@ -12,9 +12,11 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: club-voyage
 */
 
-// import  des feuilles de style de theme 
+// import  des feuilles de style de theme
 
 // Variables
+
+@import "variable/dimension";
 //@import "variable/couleurs";
 
 // Base
@@ -22,7 +24,8 @@ Text Domain: club-voyage
 
 // Layout
 @import "layout/general";
-//@import "layout/entete";
+@import "layout/entete";
+@import "layout/hero";
 
 // Composant
 @import "composants/recherche";
